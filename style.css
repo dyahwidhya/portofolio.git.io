@@ -230,4 +230,30 @@ footer {
   width: 70%;
   margin-left: 300px;
   margin: 40px;
+  text-decoration-line: underline;
+}
+
+@media (min-width: 321px) and (max-width: 425px) {
+  .judul {
+    width: 100%;
+  }
+
+  .menu p {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .pt2 .box1 {
+    width: 10%;
+  }
+  .org2 {
+    width: auto;
+  }
+  .org2 p {
+    width: 100%;
+  }
+  .org3 .box1 {
+    width: 100%;
+  }
+  .contact .box {
+    width: 10%;
 }
